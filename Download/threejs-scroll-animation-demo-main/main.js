@@ -14,6 +14,7 @@ const renderer = new THREE.WebGLRenderer({
 
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
+// a camera estva no meio entao metemos de lado
 camera.position.setZ(30);
 camera.position.setX(-3);
 
