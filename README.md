@@ -1,6 +1,6 @@
 
 # Vite-WebSite
-This is another simple website I did with three.js when I was in my 1st year of college. Hope you like it!.
+This is another simple website I did with three.js when I was in my 1st year of college. Hope you like it!
 
 # Demo
 
