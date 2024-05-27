@@ -34,15 +34,15 @@ const material = new THREE.MeshStandardMaterial( {color: 0x77C8FF} );
 const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
 
-const geometry2 = new THREE.CircleGeometry( 25, 32 );
+const geometry2 = new THREE.CircleGeometry( 250, 250 );
 const material2 = new THREE.MeshMatcapMaterial( { color: 0xFF2294 } );
 const circle = new THREE.Mesh( geometry2, material2 );
-circle.position.setZ(-50);
+circle.position.setZ(-800);
 scene.add( circle );
 
 const planeTexture = new THREE.TextureLoader().load('floor.png');
 const planeT = new THREE.Mesh(
-    new THREE.PlaneGeometry(55, 55),
+    new THREE.PlaneGeometry(555, 555),
     new THREE.MeshMatcapMaterial({ map: planeTexture }));
 planeT.rotation.x -= 1.57;
 //planeT.rotation.z += 3;
